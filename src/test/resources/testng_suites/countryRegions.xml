@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Testing Suite">
+    <test name="Filter Countries by Region Test">
+        <parameter name="region" value="Europe" />
+        <classes>
+            <class name="com.solvd.api.countries.GetCountriesByRegionTest"/>
+        </classes>
+    </test>
+</suite>

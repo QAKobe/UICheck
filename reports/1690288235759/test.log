@@ -1,0 +1,14 @@
+[2023-07-25 12:30:35] [1] [INFO] 
+=========== WebDriver configuration ===========
+-------------- Driver capabilities ------------
+===============================================
+
+[2023-07-25 12:30:35] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 12:30:37] [1] [INFO] [TestNG] Running:
+  /Users/aizhamalmamatkalilkyzy/IdeaProjects/api-testing/src/test/resources/testng_suites/countryInvalid.xml
+
+[2023-07-25 12:30:37] [1] [INFO] Set thread-count=1
+[2023-07-25 12:30:37] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-25 12:30:37] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2023-07-25 12:30:40] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-07-25 12:30:40] [1] [INFO] RESULT #1: TEST [Invalid country Name Test - testInvalidCountryName] PASS [log=file:///Users/aizhamalmamatkalilkyzy/IdeaProjects/api-testing/./reports/1690288235759/3ab8f743-c089-494c-817b-e14e9199a848/test.log]

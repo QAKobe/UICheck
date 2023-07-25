@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite">
+  <test name="Invalid country Name Test">
+    <parameter name="invalidCountryName" value="Neverland"/>
+    <classes>
+      <class name="com.solvd.api.countries.InvalidCountryNameTest"/>
+    </classes>
+  </test>
+</suite>

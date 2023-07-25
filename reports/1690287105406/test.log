@@ -1,0 +1,12 @@
+[2023-07-25 12:11:45] [1] [INFO] 
+=========== WebDriver configuration ===========
+-------------- Driver capabilities ------------
+===============================================
+
+[2023-07-25 12:11:45] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-25 12:12:14] [1] [INFO] [TestNG] Running:
+  /Users/aizhamalmamatkalilkyzy/IdeaProjects/api-testing/src/test/resources/testng_suites/countryInvalid.xml
+
+[2023-07-25 12:12:15] [1] [INFO] Set thread-count=1
+[2023-07-25 12:12:15] [1] [INFO] Set data-provider-thread-count=1
+[2023-07-25 12:12:15] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
