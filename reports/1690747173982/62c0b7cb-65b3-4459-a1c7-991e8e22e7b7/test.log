@@ -1,0 +1,139 @@
+[2023-07-30 07:59:36] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-07-30 07:59:36] [1] [INFO] TEST [api-testing - testDeleteByInvalidId [L01]] STARTED at [14:59:36 2023-07-30]
+[2023-07-30 07:59:36] [1] [INFO] Base properties loaded: api/pet/pet.properties
+[2023-07-30 07:59:38] [1] [INFO] Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/1236
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+[
+    {
+        "id": "1233",
+        "category": {
+            "id": 1,
+            "name": "Dogs"
+        },
+        "name": "Fluffy",
+        "photoUrls": [
+            "https://example.com/pet12345/photo1.jpg",
+            "https://example.com/pet12345/photo2.jpg"
+        ],
+        "tags": [
+            {
+                "id": 101,
+                "name": "Friendly"
+            },
+            {
+                "id": 102,
+                "name": "Playful"
+            }
+        ],
+        "status": "available"
+    }
+]
+HTTP/1.1 404 Not Found
+Date: Sun, 30 Jul 2023 19:59:38 GMT
+Content-Length: 0
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+
+
+[2023-07-30 07:59:38] [1] [ERROR] TEST [api-testing - testDeleteByInvalidId [L01]] FAILED at [14:59:38 2023-07-30] - 2 expectations failed.
+Expected status code <200> but was <404>.
+
+Expected status line a string containing "OK" doesn't match actual status line "HTTP/1.1 404 Not Found".
+
+
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:493)
+io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1656)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy:183)
+io.restassured.internal.RequestSpecificationImpl.delete(RequestSpecificationImpl.groovy)
+com.zebrunner.carina.api.http.HttpClient.send(HttpClient.java:46)
+com.zebrunner.carina.api.AbstractApiMethod.callAPI(AbstractApiMethod.java:301)
+com.zebrunner.carina.api.AbstractApiMethodV2.callAPI(AbstractApiMethodV2.java:189)
+com.zebrunner.carina.api.AbstractApiMethod.callAPI(AbstractApiMethod.java:279)
+com.zebrunner.carina.api.AbstractApiMethodV2.callAPI(AbstractApiMethodV2.java:181)
+com.zebrunner.carina.api.AbstractApiMethodV2.callAPIExpectSuccess(AbstractApiMethodV2.java:215)
+com.solvd.api.pet.DeletePetNegativeTest.testDeleteByInvalidId(DeletePetNegativeTest.java:16)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:566)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

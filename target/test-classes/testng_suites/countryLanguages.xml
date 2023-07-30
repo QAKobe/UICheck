@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="API Test Suite">
-    <test name="Filter Countries by Language Test">
-        <parameter name="languages" value="English" />
-        <classes>
-            <class name="com.solvd.api.countries.FilterCountriesByLanguageTest" />
-        </classes>
-    </test>
-</suite>

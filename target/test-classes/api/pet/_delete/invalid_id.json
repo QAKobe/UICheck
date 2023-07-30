@@ -1,0 +1,26 @@
+[
+  {
+    "id": "${invalid_id}",
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "${pet_name}",
+    "photoUrls": [
+      "https://example.com/pet12345/photo1.jpg",
+      "https://example.com/pet12345/photo2.jpg"
+    ],
+    "tags": [
+      {
+        "id": 101,
+        "name": "Friendly"
+      },
+      {
+        "id": 102,
+        "name": "Playful"
+      }
+    ],
+    "status": "${pet_status}"
+  }
+
+]
