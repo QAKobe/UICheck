@@ -1,0 +1,12 @@
+[2023-08-01 04:45:58] [1] [INFO] [TestNG] Running:
+  C:\Users\Kubanych\IdeaProjects\country_api\src\test\java\com\solvd_ui\runner\smoke.xml
+
+[2023-08-01 04:45:59] [1] [ERROR] Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[2023-08-01 04:45:59] [1] [WARN] Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[2023-08-01 04:45:59] [1] [INFO] Exporting webdriver.chrome.driver as C:\Users\Kubanych\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[2023-08-01 04:46:04] [1] [ERROR] Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[2023-08-01 04:46:04] [1] [WARN] Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[2023-08-01 04:46:04] [1] [INFO] Exporting webdriver.chrome.driver as C:\Users\Kubanych\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[2023-08-01 04:46:11] [1] [ERROR] Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[2023-08-01 04:46:11] [1] [WARN] Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[2023-08-01 04:46:11] [1] [INFO] Exporting webdriver.chrome.driver as C:\Users\Kubanych\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Solvd">
+    <test name="validations">
+        <parameter name="metaText" value="Facebook"/>
+        <parameter name="instagramText" value="Instagram"/>
+        <parameter name="twitterText" value="Twitter"/>
+        <parameter name="pinterestText" value="Pinterest"/>
+        <parameter name="youTubeText" value="Youtube"/>
+        <parameter name="email" value="test@test.com"></parameter>
+        <parameter name="successText" value="You've been successfully signed up!"></parameter>
+        <classes>
+            <class name="com.solvd_ui.tests.EtsyScript"/>
+
+        </classes>
+    </test>
+
+</suite>
